@@ -2,7 +2,7 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|user_id|reference|null: false, foreign_key: true|
+|user|reference|null: false, foreign_key: true|
 |group_id|reference|null: false, foreign_key: true|
 
 ### Association
@@ -18,7 +18,7 @@
 ### Association
 - has_many :messages
 - has_many :members
-- has_many :groups, through::members
+- has_many :groups, throught::members
 
 ## groupsテーブル
 |Column|Type|Options|
@@ -28,7 +28,7 @@
 ### Association
 - has_many :messages
 - has_many :members
-- belongs_to :users, through::members
+- belongs_to :user, throught::members
 
 ## messagesテーブル
 |Column|Type|Options|
