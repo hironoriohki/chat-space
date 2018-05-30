@@ -10,7 +10,6 @@
 - belongs_to :user
 
 ## userテーブル
-<<<<<<< Updated upstream
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false, index: true|
