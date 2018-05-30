@@ -42,9 +42,4 @@
 ### Association
  - belongs_to :group
  - belongs_to :user
-=======
 
-|Column|Type|Options|
-|------|----|-------|
-|
->>>>>>> Stashed changes
