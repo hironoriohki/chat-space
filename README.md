@@ -26,8 +26,7 @@
 
 ### Association
 - has_many :messages
-- has_many :members
-- belongs_to :user, through::members
+- has_many :user, through::members
 
 ## messagesテーブル
 |Column|Type|Options|
